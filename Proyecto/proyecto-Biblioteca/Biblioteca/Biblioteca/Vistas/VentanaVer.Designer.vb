@@ -22,63 +22,78 @@ Partial Class VentanaVer
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.TableLayoutPanel1.SuspendLayout()
+        Me.tlpPrincipal = New System.Windows.Forms.TableLayoutPanel()
+        Me.bRetro = New System.Windows.Forms.Button()
+        Me.bAvant = New System.Windows.Forms.Button()
+        Me.pDatos = New System.Windows.Forms.Panel()
+        Me.tlpPrincipal.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TableLayoutPanel1
+        'tlpPrincipal
         '
-        Me.TableLayoutPanel1.ColumnCount = 2
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Button1, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Button2, 1, 1)
-        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 86.26761!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.73239!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(588, 292)
-        Me.TableLayoutPanel1.TabIndex = 0
+        Me.tlpPrincipal.ColumnCount = 2
+        Me.tlpPrincipal.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tlpPrincipal.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.tlpPrincipal.Controls.Add(Me.bRetro, 0, 1)
+        Me.tlpPrincipal.Controls.Add(Me.bAvant, 1, 1)
+        Me.tlpPrincipal.Controls.Add(Me.pDatos, 0, 0)
+        Me.tlpPrincipal.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.tlpPrincipal.Location = New System.Drawing.Point(0, 0)
+        Me.tlpPrincipal.Name = "tlpPrincipal"
+        Me.tlpPrincipal.RowCount = 2
+        Me.tlpPrincipal.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.tlpPrincipal.RowStyles.Add(New System.Windows.Forms.RowStyle())
+        Me.tlpPrincipal.Size = New System.Drawing.Size(588, 340)
+        Me.tlpPrincipal.TabIndex = 0
         '
-        'Button1
+        'bRetro
         '
-        Me.Button1.Location = New System.Drawing.Point(3, 254)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.bRetro.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.bRetro.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bRetro.Location = New System.Drawing.Point(256, 302)
+        Me.bRetro.Name = "bRetro"
+        Me.bRetro.Size = New System.Drawing.Size(35, 35)
+        Me.bRetro.TabIndex = 0
+        Me.bRetro.Text = "<"
+        Me.bRetro.UseVisualStyleBackColor = True
         '
-        'Button2
+        'bAvant
         '
-        Me.Button2.Location = New System.Drawing.Point(297, 254)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.bAvant.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bAvant.Location = New System.Drawing.Point(297, 302)
+        Me.bAvant.Name = "bAvant"
+        Me.bAvant.Size = New System.Drawing.Size(35, 35)
+        Me.bAvant.TabIndex = 1
+        Me.bAvant.Text = ">"
+        Me.bAvant.UseVisualStyleBackColor = True
+        '
+        'pDatos
+        '
+        Me.tlpPrincipal.SetColumnSpan(Me.pDatos, 2)
+        Me.pDatos.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pDatos.Location = New System.Drawing.Point(3, 3)
+        Me.pDatos.Name = "pDatos"
+        Me.pDatos.Size = New System.Drawing.Size(582, 293)
+        Me.pDatos.TabIndex = 2
         '
         'VentanaVer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(588, 292)
-        Me.Controls.Add(Me.TableLayoutPanel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ClientSize = New System.Drawing.Size(588, 340)
+        Me.Controls.Add(Me.tlpPrincipal)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximumSize = New System.Drawing.Size(604, 4000)
         Me.MinimumSize = New System.Drawing.Size(604, 96)
         Me.Name = "VentanaVer"
         Me.Text = "VentanaVer"
-        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.tlpPrincipal.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents tlpPrincipal As TableLayoutPanel
+    Friend WithEvents bRetro As Button
+    Friend WithEvents bAvant As Button
+    Friend WithEvents pDatos As Panel
 End Class

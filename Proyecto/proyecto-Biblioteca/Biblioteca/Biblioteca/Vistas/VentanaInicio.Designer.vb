@@ -49,7 +49,7 @@ Partial Class VentanaInicio
         Me.bVerBiblioteca.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.bVerBiblioteca.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bVerBiblioteca.Location = New System.Drawing.Point(17, 18)
-        Me.bVerBiblioteca.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.bVerBiblioteca.Margin = New System.Windows.Forms.Padding(10)
         Me.bVerBiblioteca.Name = "bVerBiblioteca"
         Me.bVerBiblioteca.Size = New System.Drawing.Size(154, 82)
         Me.bVerBiblioteca.TabIndex = 0
@@ -61,7 +61,7 @@ Partial Class VentanaInicio
         Me.bModificar.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.bModificar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bModificar.Location = New System.Drawing.Point(17, 120)
-        Me.bModificar.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.bModificar.Margin = New System.Windows.Forms.Padding(10)
         Me.bModificar.Name = "bModificar"
         Me.bModificar.Size = New System.Drawing.Size(154, 82)
         Me.bModificar.TabIndex = 1

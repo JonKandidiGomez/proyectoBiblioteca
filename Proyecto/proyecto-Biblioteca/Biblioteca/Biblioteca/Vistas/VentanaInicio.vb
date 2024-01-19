@@ -25,4 +25,8 @@
     Private Sub bVerBiblioteca_Click(sender As Object, e As EventArgs) Handles bVerBiblioteca.Click
         VentanaVer.ShowDialog()
     End Sub
+
+    Private Sub bModificar_Click(sender As Object, e As EventArgs) Handles bModificar.Click
+        VentanaEditar.ShowDialog()
+    End Sub
 End Class
