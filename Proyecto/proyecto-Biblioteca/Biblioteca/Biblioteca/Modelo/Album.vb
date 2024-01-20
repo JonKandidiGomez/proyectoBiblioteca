@@ -1,6 +1,7 @@
 ﻿Imports Microsoft.VisualBasic
 
 Public Class Album
+
     Private _id As System.Int32
     Private _autor As System.String
     Private _titulo As System.String

@@ -1,5 +1,6 @@
 ﻿Public Class VentanaInicio
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim gestorBD As New GestorBD()
 
     End Sub
 

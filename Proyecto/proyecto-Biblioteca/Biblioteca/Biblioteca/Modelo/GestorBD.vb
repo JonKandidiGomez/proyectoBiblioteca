@@ -1,12 +1,11 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Data.SQLite
+﻿Imports System.Data.SQLite
 
 Public Class GestorBD
 
     Property conexion As SQLiteConnection
 
     Public Sub New()
-        con = conectar()
+        conexion = conectar()
     End Sub
 
 
@@ -21,20 +20,20 @@ Public Class GestorBD
         con.Close()
     End Function
 
-    Private Function cargarDatos()
+    Public Function cargarDatos()
 
         Try
             Dim albums As New List(Of Album)
 
             Dim conexion = Me.conexion
-            Dim consulta As String = String.format("SELECT * FROM ALBUM")
+            Dim consulta As String = String.Format("SELECT * FROM ALBUM")
 
             conexion.Open()
             Dim cmd As New SQLiteCommand(consulta, conexion)
 
             Dim lector As SQLiteDataReader = cmd.ExecuteReader()
             While lector.Read()
-                albums.Add(New Album(lector.GetInt16(0), lector.GetString(1), lector.GetString(2), lector.GetInt16(3))
+                albums.Add(New Album(lector.GetInt16(0), lector.GetString(1), lector.GetString(2), lector.GetInt16(3)))
             End While
             Return albums
         Catch ex As Exception
@@ -42,4 +41,36 @@ Public Class GestorBD
         End Try
 
     End Function
+
+    Public Sub insertarRegistro(album As Album)
+
+        Try
+            Dim sql As String = "INSERT INTO ALBUM (ID, TITULO, AUTOR, ANYO) VALUES (@id, @titulo, @autor, @anyo);"
+            Dim con = Me.conexion
+            con.Open()
+            Dim cmd As New SQLiteCommand(sql, con)
+
+            cmd.Parameters.Add("@id", DbType.String).Value = album.id
+            cmd.Parameters.Add("@titulo", DbType.String).Value = album.titulo
+            cmd.Parameters.Add("@autor", DbType.String).Value = album.autor
+            cmd.Parameters.Add("@anyo", DbType.String).Value = album.año
+            cmd.ExecuteNonQuery()
+        Catch ex As Exception
+            MsgBox(ex.Message & " No se inserta la persona")
+        End Try
+    End Sub
+
+
+
+    Public Sub borrarRegistro(id As Integer)
+        Dim sql As String = String.Format("DELETE FROM ALBUM WHERE ID = {0}", id)
+
+        Try
+            Dim cmd As New SQLiteCommand(sql, Me.conexion)
+            cmd.ExecuteNonQuery()
+
+        Catch ex As Exception
+            MsgBox(ex.Message & "No se ha borrado el registro")
+        End Try
+    End Sub
 End Class

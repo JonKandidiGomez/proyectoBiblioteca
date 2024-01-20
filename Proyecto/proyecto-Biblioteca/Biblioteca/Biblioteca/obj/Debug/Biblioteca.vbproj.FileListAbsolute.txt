@@ -55,12 +55,6 @@ C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Bibliotec
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.exe
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.pdb
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\Biblioteca.xml
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\controlBiblioteca.dll
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\EntityFramework.dll
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\System.Data.SQLite.dll
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\controlBiblioteca.pdb
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\controlBiblioteca.xml
 C:\Users\jkand\Desktop\proyectoBiblioteca\Proyecto\proyecto-Biblioteca\Biblioteca\Biblioteca\bin\Debug\EntityFramework.xml
