@@ -121,7 +121,7 @@ Partial Class controlUsuario
         '
         Me.bEditar.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bEditar.Location = New System.Drawing.Point(403, 10)
-        Me.bEditar.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.bEditar.Margin = New System.Windows.Forms.Padding(10)
         Me.bEditar.MinimumSize = New System.Drawing.Size(75, 30)
         Me.bEditar.Name = "bEditar"
         Me.tlpControl.SetRowSpan(Me.bEditar, 2)
@@ -134,7 +134,7 @@ Partial Class controlUsuario
         '
         Me.bBorrar.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.bBorrar.Location = New System.Drawing.Point(498, 10)
-        Me.bBorrar.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
+        Me.bBorrar.Margin = New System.Windows.Forms.Padding(10)
         Me.bBorrar.MinimumSize = New System.Drawing.Size(75, 30)
         Me.bBorrar.Name = "bBorrar"
         Me.tlpControl.SetRowSpan(Me.bBorrar, 2)

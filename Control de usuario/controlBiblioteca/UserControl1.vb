@@ -9,28 +9,28 @@
 
     Property titulo As String
         Get
-            Return _titulo
+            Return tbAlbum.Text
         End Get
         Set
-            _titulo = Value
+            tbAlbum.Text = Value
         End Set
     End Property
 
     Property autor As String
         Get
-            Return _autor
+            Return tbAutor.Text
         End Get
         Set
-            _autor = Value
+            tbAutor.Text = Value
         End Set
     End Property
 
     Property año As Integer
         Get
-            Return _año
+            Return tbAño.Text
         End Get
         Set
-            _año = Value
+            tbAño.Text = Value
         End Set
     End Property
 
@@ -43,11 +43,11 @@
         End Set
     End Property
 
-    Private Sub bEditar_Click(sender As Object, e As EventArgs) Handles bEditar.Click
+    Overridable Sub bEditar_Click(sender As Object, e As EventArgs) Handles bEditar.Click
         RaiseEvent ClickBotonMod()
     End Sub
 
-    Private Sub bBorrar_Click(sender As Object, e As EventArgs) Handles bBorrar.Click
+    Overridable Sub bBorrar_Click(sender As Object, e As EventArgs) Handles bBorrar.Click
         RaiseEvent ClickBotonEliminar()
     End Sub
 End Class

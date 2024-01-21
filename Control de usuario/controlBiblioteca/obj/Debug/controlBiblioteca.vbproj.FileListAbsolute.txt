@@ -20,3 +20,14 @@ C:\Users\8FDAM03\Desktop\Proyecto-DI-Jon\Control de usuario\controlBiblioteca\ob
 C:\Users\8FDAM03\Desktop\Proyecto-DI-Jon\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.dll
 C:\Users\8FDAM03\Desktop\Proyecto-DI-Jon\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.xml
 C:\Users\8FDAM03\Desktop\Proyecto-DI-Jon\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.pdb
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\bin\Debug\controlBiblioteca.dll
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\bin\Debug\controlBiblioteca.pdb
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\bin\Debug\controlBiblioteca.xml
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.vbproj.AssemblyReference.cache
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.Resources.resources
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.controlUsuario.resources
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.vbproj.GenerateResource.cache
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.vbproj.CoreCompileInputs.cache
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.dll
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.xml
+C:\Users\jkand\Desktop\proyectoBiblioteca\Control de usuario\controlBiblioteca\obj\Debug\controlBiblioteca.pdb
